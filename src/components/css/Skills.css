@@ -1,0 +1,31 @@
+/* src/components/Skills.css */
+#skills {
+    background-color: #f0f4f8;
+    padding: 80px 0;
+}
+
+#skills h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#skills li {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+#skills li:hover {
+    background-color: #003f7d;
+}
